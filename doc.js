@@ -1,4 +1,4 @@
-$(".item-1").html("hi!");
+$(".item-1").html("<h1>hi!</h1>");
 
 ananQuery("button").text("Button");
 
@@ -14,7 +14,7 @@ $(".field-2").on("click", function () {
 	console.log("hey, I am a button");
 });
 
-$(".field-2").attr("value", "tall");
+$(".field-2").attr("value");
 
 $("#inp").addClass("newClass");
 
